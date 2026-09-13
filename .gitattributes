@@ -1,0 +1,14 @@
+* text=auto eol=lf
+
+# Shell scripts must keep LF endings or they will not run on Linux/macOS
+*.sh text eol=lf
+
+# Go tooling assumes LF
+*.go text eol=lf
+go.mod text eol=lf
+go.sum text eol=lf
+
+Dockerfile text eol=lf
+Makefile   text eol=lf
+*.yml      text eol=lf
+*.md       text eol=lf

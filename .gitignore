@@ -1,0 +1,18 @@
+# binaries
+/bin/
+*.exe
+address-validator
+
+# env
+.env
+*.local
+
+# data dumps (GeoNames files are large — do not commit)
+/data/*.txt
+/data/*.zip
+!/data/.gitkeep
+
+# editor
+.idea/
+.vscode/
+*.swp
